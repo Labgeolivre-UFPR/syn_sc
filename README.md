@@ -1,4 +1,4 @@
-v<h1>Syn-SC &ndash; Continuity&ndash;Smoothness-controlled Synthetic Point Data (QGIS 3)</h1>
+<h1>Syn-SC &ndash; Continuity&ndash;Smoothness-controlled Synthetic Point Data (QGIS 3)</h1>
 
 <p>
 <strong>Syn-SC</strong> is a QGIS Processing provider that generates large synthetic point
