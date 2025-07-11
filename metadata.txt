@@ -1,0 +1,49 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Syn-SC Toolkit
+qgisMinimumVersion=3.22
+description=Generate high-volume synthetic point data with user-defined continuity & smoothness
+version=0.1
+about=Syn-SC is a QGIS Processing provider that synthesises realistic point data for perceptual user studies, AI training and teaching. It controls three spatial parameters independently: continuity (proportion of empty grid cells), smoothness (mean absolute contrast between neighbouring cells) and an optional point-per-cell cap.  A Scale Assistant builds an adaptive hexagon grid and suggests the optimum solver (Brute, Heuristic or Iterative).  A metric evaluator verifies that the output meets the requested targets.
+tags=synthetic; smoothness; continuity; hexagon; cartography
+author=Anonymous Research Team
+email=withheld@review.local
+
+about=Generate high-volume synthetic point data with user-defined continuity and smoothness; includes brute, heuristic and iterative generators, a scale assistant and a metric evaluator.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
